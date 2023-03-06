@@ -3,3 +3,38 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+}
+#featured-property img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content:center; 
+  align-items: center;
+}
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 3px;
+  color: darkolivegreen;
+  background-color: chartreuse;
+}
+#featured-property figcaption {
+  font-size: smaller;
+  align-items: center;
+  text-align: center;
+}
+#featured-property p {
+  max-width: 800px;
+  margin: 15px auto;
+ }
+#details div{
+  float: left;
+  background-color: cadetblue;
+  width: 25%;
+  text-align: center;
+}
